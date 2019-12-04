@@ -41,8 +41,7 @@ Importantly this part of our model includes no transaction fees or proprietary a
 
 # Who are RedGrid?
 RedGrid are the for profit company that is helping develop the IoE and deliver its benefits to the world.
-RedGrid to the IoE are similar to what Red Hat Linux is to Linux.
-RedGrid provide IoE software development and integration services for clients, energy orchestration solutions that leverage the IoE protocols, software and developer tools that accelerate IoE adoption, as well as currency redemption (on/offramp) services.
+RedGrid provide IoE software development and integration services for clients, energy orchestration solutions that leverage the IoE protocols, software and developer tools that accelerate IoE adoption, as well as currency services.
 
 # Why Agent Based?
 The Agent based approach is a critical differentiator within the IoE protocol and it is essential to resolving the problems of the increasingly distributed needs of our electricity grids.
@@ -55,10 +54,22 @@ Under our model every energy device has an identity and autonomy to engage with 
 This is a much more flexible, adaptable and scalable model and is precisely the method nature uses to maintain complex ecosystems.
 
 # Structure of this Repo
-*Device Node Libraries
-*Signal Node Libraries
-*MDBook
-*Tutorial Projects
+- Device Node Libraries
+- Signal Node Libraries
+- MDBook
+- Tutorial Projects
+
+# IMPORTANT - Software Licensing
+Currently this project is licensed under GPL3.0 open source license but we also include the following requirements for developers contained in this section.  The framework we will employ is based upon a new license type being developed specifically for distributed peer to peer applications such as the IoE called the **Cryptographic Autonomy License**.
+
+This license includes the following features and these features are considered part of this repository usage rules:
+1) a strong reciprocal (“copyleft”) license so as to maintain user agency and freedom.
+2) a requirement that software that implements a compatible API or publicly performs the API it must also be open source.
+3) maximize compatibility. Despite the strong copyleft nature of the license, it will not require compatible software to itself be licensed under the Cryptographic Autonomy License; other open source licenses will also be acceptable.
+4) built-in mechanism for allowing exceptions for linked or co-compiled code, preserving a distinction between applications built on the framework itself and connected user applications.
+
+More information on the Cryptographic Autonomy License can be found here:
+https://medium.com/h-o-l-o/why-we-need-a-new-open-source-license-c8faf8a8dadd
 
 
 
