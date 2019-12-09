@@ -2,20 +2,20 @@
 The Internet of Energy is an open source protocol for an open and distributed energy system.
 It provides a common language/grammar and standard for energy transactions directly between devices, and the people who manage them.
 It allows any device that monitors, consumes, produces or requires electricity to communicate and transact value with security, and privacy.
-The IoE can be considered for the energy system as analogous to the TCP/IP protocol of the information internet, which is an open standard that is embedded and integrated to every communication device and facilitates communications between internet connected devices regardless their type, brand, and/or location.
+The IoE can be considered for the energy system as analogous to the TCP/IP protocol of the information internet, which is an open standard that is embedded and integrated to every communication device and facilitates communications between internet connected devices regardless of their type, brand, and/or location.
 
 # Why is it important?
 ## Stability
-Electricity for many of us is something we take for granted.  We rarely consider the effort and complexity required to manage and maintain.  But the electricity grid is a 'commons' infrastructure.  There is enormous effort involved to maintain its balance.
-This was not such a problem when grid operators could control and predict how much energy would be procuced and consumed in their grids as well as where those producers and consumers would reside.
-For example the Australian Energy Grid in a very short timeframe with massive adoption of rooftop solar has gone from a system needing to support perhaps 20 Energy Generation Facilities, to one that now must support ~2.5 Million.
+Electricity for many of us is something we take for granted.  We rarely consider the effort and complexity required to manage and maintain electricity grids and systems.  But the electricity grid is a 'commons' infrastructure.  There is enormous effort involved to maintain its balance.
+This was not such a problem when grid operators could control and predict how much energy would be produced and consumed in their grids as well as where those producers and consumers would reside.
+For example the Australian energy grid in a very short timeframe with massive adoption of rooftop solar has gone from a system needing to support perhaps 20 energy generation facilities, to one that now must support ~2.5 million.
 The current systems, software, and architectures that only leverage and include a few elements are completely insufficient and unprepared for this transformation.
 What is required is an open architecture that enables orchestration, awareness, and communication between all elements, including home appliances, rooftop solar, batteries, monitoring devices like meters, grid infrastructure, and the humans who administer them.
-The solution needs to be architected as a connected eco-system.  It needs to be build like a natural organism for which all layers are connected, have local and global awareness, but act independently rather than on the instrcuctions of a central authority (a server in a data centre).
-This approach is a fundamental method that underpins and enables the IoE. we call this approach BioMimicry and it represents a revolution in what is possible with software design.
+The solution needs to be architected as a connected eco-system.  It needs to be build like a natural organism for which all layers are connected, have local and global awareness, but act independently rather than on the instructions of a central authority (a server in a data centre).
+This approach is a fundamental method that underpins and enables the IoE. This approach is known as biomimicry and it represents a revolution in what is possible with software design.
 
 ## Sustainability
-There is no longer any credible debating that the biggest threat to humanity is Climate Change.
+There is no longer any credible debating that the biggest threat to humanity is climate change.
 For our children and even for our own future we MUST change our ways.
 Our consumption of electricity and energy is a core area we must resolve.
 Massive adoption and integration of renewables and innovative energy solutions are helping address this problem.
@@ -24,18 +24,18 @@ At the moment there is very little integration or awareness between consumption 
 The Internet of energy protocol allows solutions that bring these systems together.
 With the IoT revolution we see an almost unimaginable amount of devices becoming internet connected, from your fridge, airconditioner, kettle, ...  With this connectivity we have the opportunity to use these devices as tools to support the grid and reduce waste.
 Under the IoE protocol we can give these devices awareness of the needs of the grid and systems around them to move and alter their energy usage in real time based on real time signals to benefit the whole and reduce waste.
-As an example it is estimated that last year the energy wasted (though appliances being on but not used) in the US in one year could have powered the UK for 7 Years!
-Under the IoE we can now access and address this wastage issue and provide orchestration services that are much more efficient and optimized that what is possible today.
+As an example it is estimated that last year the energy wasted (through appliances being on but not used) in the US in one year could have powered the UK for 7 Years!
+Under the IoE we can now access and address this wastage issue and provide orchestration services that are much more efficient and optimized than what is possible today.
 
 ## Community energy and Incentives
 A key aspect of the energy system transformation that has been enabled primarily by rooftop solar and increasingly home battery systems is that the value produced in the energy system is becoming completely and entirely distributed.
 The current system with few 'producers' and 'providers' charging energy consumers is going away.  More and more communities and grid infrastructure are beginning to support energy resilient communities.
-There is no debating this shift and as more innovative energy solutions emerge we will begin to see entirely energy resilient energy communities.
-Even more we believe that in a short time we will begin to see communities become not only net zero, but net clean energy producers.
+There is no debating this shift, and as more innovative energy solutions emerge we will begin to see entirely energy resilient energy communities.
+Even more, we believe that in a short time, we will begin to see communities become not only net zero, but net clean energy producers.
 Under this circumstance we believe that energy can serve an entirely new purpose.  Surplus can be directed to productive enterprise that provides community value and pays dividends to the participants.
 In this model we see energy and electricity becoming a currency that is redeemable for other types of value.
 A system that rewards; good sustainable energy usage, energy sharing with those who need it most, gives people direct value from the clean energy solutions they adopt or energy they produce.
-Energy is the most relevant and real representation of value we have and we believe in the future with the IoE it will become a currency that is more redeemable, valuable, and relevant than paper and fiat forms which is controlled and manipulated and do not represent real value.
+Energy is the most relevant and real representation of value we have, and we believe in the future with the IoE, it will become a currency that is more redeemable, valuable, and relevant than paper and fiat forms, which are controlled and manipulated, and do not represent real value.
 The IoE includes a unique and 'open' currency and reputation system that is baked into every agent participating in the system that allows energy behaviour to be accounted for and used as real value.
 Importantly this part of our model includes no transaction fees or proprietary aspects.
 
@@ -64,7 +64,7 @@ Currently this project is licensed under GPL3.0 open source license but we also 
 
 This license includes the following features and these features are considered part of this repository usage rules:
 1) a strong reciprocal (“copyleft”) license so as to maintain user agency and freedom.
-2) a requirement that software that implements a compatible API or publicly performs the API it must also be open source.
+2) a requirement that software that implements a compatible API or that publicly performs the API must also be open source.
 3) maximize compatibility. Despite the strong copyleft nature of the license, it will not require compatible software to itself be licensed under the Cryptographic Autonomy License; other open source licenses will also be acceptable.
 4) built-in mechanism for allowing exceptions for linked or co-compiled code, preserving a distinction between applications built on the framework itself and connected user applications.
 
