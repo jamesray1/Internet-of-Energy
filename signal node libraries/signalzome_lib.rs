@@ -1,6 +1,6 @@
 // This zome is an ORACLE signalling agent zome.
-// if is for an agent who needs to reach out to an external source (API) and relay a value into the dht
-// agents running this DNA can review and retrieve this value but unless permitted cannot write to it.
+// It is for an agent who needs to reach out to an external source (API) and relay a value into the DHT.
+// Agents running this DNA can review and retrieve this value but unless permitted cannot write to it.
 
 
 #![feature(proc_macro_hygiene)]
@@ -33,7 +33,8 @@ use hdk::holochain_json_api::{
 };
 use hdk_proc_macros::zome;
 
-// this is a struct for the current market price data.  This is updated every 5 minutes.
+// this is a struct for the current market price data.  This is updated every 5 minutes
+// (with NEM spot market price updates).
 #[derive(Serialize, Deserialize, Debug, DefaultJson,Clone)]
 pub struct PriceRange {
     price: String,
@@ -80,9 +81,9 @@ mod spot_signal {
         )
     }
 
-    // this function sets the spot price and is used by the device agents
-    // function needs to be written to emit a signal when this changes
-    // the signal emit is sent to interested agents who will update their connected device
+    // This function sets the spot price and is used by the device agents.
+    // The function needs to be written to emit a signal when this changes.
+    // The signal emit is sent to interested agents who will update their connected device.
     #[zome_fn("hc_public")]
     pub fn set_price(price: String) -> ZomeApiResult<Address> {
         let signal = PriceRange {
@@ -96,7 +97,7 @@ mod spot_signal {
         Ok(address)
     }
 
-    // this is the function that sets the spot price for each state every 5 minutes
+    // This is the function that sets the spot price for each state every 5 minutes.
     #[zome_fn("hc_public")]
     fn get_price(agent_address: Address) -> ZomeApiResult<Vec<PriceRange>> {
         hdk::utils::get_links_and_load_type(
